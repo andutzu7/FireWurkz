@@ -1,0 +1,22 @@
+﻿  Main.cpp
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,46): warning C4244:  'argument': conversion from 'const T' to 'int32_t', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,46): warning C4244:         with
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,46): warning C4244:         [
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,46): warning C4244:             T=float
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,46): warning C4244:         ]
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,26): warning C4244:  'argument': conversion from 'const T' to 'int32_t', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,26): warning C4244:         with
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,26): warning C4244:         [
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,26): warning C4244:             T=float
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(38,26): warning C4244:         ]
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,45): warning C4244:  'argument': conversion from 'const T' to 'int32_t', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,45): warning C4244:         with
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,45): warning C4244:         [
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,45): warning C4244:             T=float
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,45): warning C4244:         ]
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,25): warning C4244:  'argument': conversion from 'const T' to 'int32_t', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,25): warning C4244:         with
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,25): warning C4244:         [
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,25): warning C4244:             T=float
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(42,25): warning C4244:         ]
+  FireWorks.vcxproj -> C:\Users\Adina\source\repos\FireWorks\Debug\FireWorks.exe

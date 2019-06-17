@@ -1,0 +1,29 @@
+﻿  Main.cpp
+C:\Users\Adina\source\repos\FireWorks\FireWorks\olcPGEX_Sound.h(391,116): warning C4244:  '+=': conversion from 'float' to 'long', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,58): warning C4244:  'argument': conversion from 'const T' to 'int32_t', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,58): warning C4244:         with
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,58): warning C4244:         [
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,58): warning C4244:             T=float
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,58): warning C4244:         ]
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,32): warning C4244:  'argument': conversion from 'const T' to 'int32_t', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,32): warning C4244:         with
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,32): warning C4244:         [
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,32): warning C4244:             T=float
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(74,32): warning C4244:         ]
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,45): warning C4244:  'argument': conversion from 'const T' to 'int32_t', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,45): warning C4244:         with
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,45): warning C4244:         [
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,45): warning C4244:             T=float
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,45): warning C4244:         ]
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,25): warning C4244:  'argument': conversion from 'const T' to 'int32_t', possible loss of data
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,25): warning C4244:         with
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,25): warning C4244:         [
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,25): warning C4244:             T=float
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(96,25): warning C4244:         ]
+C:\Users\Adina\source\repos\FireWorks\FireWorks\Main.cpp(108,17): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  123 of 688 functions (17.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    60 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  FireWorks.vcxproj -> C:\Users\Adina\source\repos\FireWorks\Release\FireWorks.exe
