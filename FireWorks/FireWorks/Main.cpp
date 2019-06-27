@@ -1,6 +1,5 @@
 #define OLC_PGE_APPLICATION
 #include "olcPixelGameEngine.h"
-//DE ADAUGAT COMENTARII!!! 
 #define OLC_PGEX_SOUND
 #include "olcPGEX_Sound.h"
 
@@ -11,9 +10,9 @@
 class FireWurks : public olc::PixelGameEngine
 {
 public:
-	 int sndSampleA;
-	 int sndSampleB;
-	 int nrOfFireworks = 150;
+	 int sndSampleA;// inutile
+	 int sndSampleB;//doar ca nu le sterg
+	 int nrOfFireworks = 150;//mi a fost lene sa fac un slider
 	std::vector<std::pair<Point*,int>> fireWorks; //Pt fiecare firework avem si un y boundary pt cat de sus este proiectat
 
 	std::vector<Point*> partycles;//vectoru cu particule care trbuie sa explodeze
@@ -37,7 +36,7 @@ public:
 		}
 	}
 
-	///creca cel mai bine e ca timpurile mele sa fie in int bag pl in float
+	///creca cel mai bine e ca tipurile mele sa fie in int bag pl in float
 	bool OnUserCreate() override
 	{
 		//olc::SOUND::InitialiseAudio(44100, 1, 8, 512);
@@ -51,7 +50,7 @@ public:
 		return true;
 	}
 	void CreateParticle()//arunc in aer o particula
-	{
+	{//nu e chiar cea mai eleganta solutie..
 		Point* p = new Point();
 		int ySpan = rand() % ScreenHeight() + 1;
 		p->SpawnParticle();
@@ -67,6 +66,7 @@ public:
 		FillRect(0, 0, ScreenWidth(), ScreenHeight(), olc::BLACK);//WE CLEAR THE SCREEN
 		if(nrOfFireworks>=0)
 		{
+	//deea e cain vectorul meu intotdeauna e doar un element caruia ii dau delete dupa ce e lansat. De asta p e fireworks de 0 mereu
 			auto p = fireWorks[0];
 			if (p.first->GetPosition().y > p.second)
 			{
@@ -74,7 +74,7 @@ public:
 				Draw(p.first->GetPosition().x, p.first->GetPosition().y, p.first->GetColor());
 				p.first->Project();
 				p.first->Fade();
-			    Sleep(10);
+			    Sleep(10); //delay fortat ca sa nu arate ca pl artificiile
 			}
 			if (p.first->GetPosition().y <= p.second)
 			{
@@ -105,7 +105,7 @@ int main()
 {
 	FireWurks demo;
 
-	std::srand(time(nullptr));
+	std::srand(time(nullptr));//the sweet random seed
 
 	if (demo.Construct(400, 300, 2, 2))
 		demo.Start();
